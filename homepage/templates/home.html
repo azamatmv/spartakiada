@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}home{% endblock %}
+
+{% block content %}
+
+    <div class="container caontainer2">
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron " >
+        <h1>8-спартакиада</h1>
+        <p><strong>Кыргыз-Түрк Манас Университетинин</strong> ички спорттук иш-чаралары</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="../../components.php/#navbar" role="button">Панель навигации &raquo;</a>
+        </p>
+      </div>
+
+                {% for i in games %}
+
+                    <a href="/reg_page/{{ i.id }}">{{ i.game_name }}</a><br>
+
+                {% endfor %}
+
+                <a href="#">архив</a>
+
+    </div> <!-- /container -->
+
+{% endblock %}
+

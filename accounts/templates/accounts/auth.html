@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}registration{% endblock %}
+{% block content %}
+<h3>факультет жооптуулар регистрациясы</h3>
+<form action="../../../spartakiada/templates/admin_f_s" method="post">
+    {% csrf_token %}
+    <label>
+        name:<input type="text" name="admin_f_s_name" /><br>
+    </label>
+    <label>
+        surname:<input type="text" name="admin_f_s_surname" /><br>
+    </label>
+     <label>
+        faculty:<input type="text" name="admin_f_s_fac" /><br>
+    </label>
+       <label>
+        sport:<input type="text" name="admin_f_s_sport" /><br>
+    </label>
+    <label>
+        phone:<input type="text" name="admin_f_s_phone" /><br>
+    </label>
+    <label>
+        email:<input type="email" name="admin_f_s_email">
+    </label>
+
+    <input type="submit" value="регистр" />
+</form>
+{% endblock %}

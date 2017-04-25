@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>участники</title>
+</head>
+<body>
+    <form action="/registration/" name="registration">
+        <input type="submit" value="регистрация" />
+    </form>
+<table border="1">
+    <tbody>
+        {% for i in st_list %}
+            <tr>
+                <td>{{ i.student_number }}</td>
+                <td>{{ i.student_name }}</td>
+                <td>{{ i.student_surname }}</td>
+                <td>{{ i.student_phone_number }}</td>
+                <td>{{ i.st_register_date }}</td>
+            </tr>
+        {% endfor %}
+          {% for i in st_fac %}
+            <tr>
+                <td>{{ i.st_fac }}</td>
+            </tr>
+        {% endfor %}
+
+    </tbody>
+</table>
+
+</body>
+</html>

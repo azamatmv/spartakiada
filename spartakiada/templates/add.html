@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+    {% if user.user_f.is_true %}
+        <a href="#"><button>add students</button></a> <br>
+        {% else %}
+        <p style="color:red;">вас еще не активировали как админстратора</p>
+    {% endif %}
+    </div>
+{% endblock %}
