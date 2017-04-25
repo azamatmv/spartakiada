@@ -52,6 +52,7 @@ def register_user(request):
         if form.is_valid():
             form.save()
             return HttpResponseRedirect('accounts/register_success')
+
     else:
         form = RegistrationForm()
 

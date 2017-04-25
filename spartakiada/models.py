@@ -3,6 +3,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 
+
 class Sport(models.Model):
     sport_name = models.CharField(max_length=100)
     def __unicode__(self):
@@ -16,7 +17,7 @@ class Faculty(models.Model):
 
 class User_f(models.Model):
     user = models.OneToOneField(User, null=True)
-    faculty_id = models.ForeignKey(Faculty, null=True)
+    faculty = models.ForeignKey(Faculty, null=True)
     sport_id = models.ForeignKey(Sport, null=True)
     phone = models.CharField(max_length=20)
     is_true = models.NullBooleanField(null=True, default=False)
@@ -24,19 +25,21 @@ class User_f(models.Model):
     def create_profile(sender, **kwargs):
         if kwargs['created']:
             user_profile = User_f.objects.create(user=kwargs['instance'])
-
+    def __unicode__(self):
+        return(self.user.first_name)
     post_save.connect(create_profile, sender=User)
 
 
 class Participants(models.Model):
-    name = models.CharField(max_length=200)
-    surname = models.CharField(max_length=200)
-    pers_num = models.CharField(max_length=20)
-    phone = models.CharField(max_length=20)
-    depart = models.CharField(max_length=100, null=True)
-    user_f_id = models.ManyToManyField(User_f)
+    name = models.CharField(max_length=200, null=False)
+    surname = models.CharField(max_length=200, null=False)
+    pers_num = models.CharField(max_length=20, null=False)
+    phone = models.CharField(max_length=20, null=True)
+    user_f_id = models.ForeignKey(User, null=True)
 
-
+    def get_user(self):
+        user_f = User_f.objects.get(user=self.user_f_id)
+        return u'%s'%(user_f.faculty.faculty_name)
 
 class Active_game(models.Model):
     game_name = models.CharField(max_length=200)

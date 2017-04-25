@@ -3,9 +3,71 @@
 {% block content %}
     <div class="container">
     {% if user.user_f.is_true %}
-        <a href="#"><button>add students</button></a> <br>
+        <a href="add_participants/"><button>add students</button></a> <br>
+
+         <form action="/add_new/" method="post">
+            {% csrf_token %}
+            <label for="namew" >
+                Name:<input type="text" name="namew"/>
+            </label>
+            <label for="surname">
+                surname:<input type="text" name="surname"/>
+            </label>
+            <label for="num">
+                num:<input type="text" name="num"/>
+            </label>
+            <label for="phone">
+                phone:<input type="text" name="phone"/>
+            </label>
+            <input type="submit" value="Create" />
+        </form>
+        <table border="1">
+	<thead>
+    	<tr>
+            <th>
+				№
+			</th>
+			<th>
+				 name
+			</th>
+			<th>
+				surname
+			</th>
+			<th>
+				num
+			</th>
+			<th>
+				phonne
+			</th>
+            <th>
+				depart
+			</th>
+             <th>
+				user_f
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+	    {% for student in students%}
+		<tr>
+            <td>{{student.id}}</td>
+			<td>{{student.name}}</td>
+			<td>{{student.surname}}</td>
+			<td>{{student.pers_num}}</td>
+			<td>{{student.phone}}</td>
+            <td>{{student.get_user}}</td>
+            <td>{{student.user_f_id}}</td>
+			<td>
+                <button><a href="/show/{{student.id}}">show </a></button/>
+                <button><a href="/delete/{{student.id}}">delete </a></button>
+            </td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
         {% else %}
         <p style="color:red;">вас еще не активировали как админстратора</p>
     {% endif %}
+
     </div>
 {% endblock %}

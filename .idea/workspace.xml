@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56eb651f-5f1a-4185-8523-28d5d215f83f" name="Default" comment="poryadok papok&#10;" />
+    <list default="true" id="56eb651f-5f1a-4185-8523-28d5d215f83f" name="Default" comment="poryadok papok&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spartakiada/templates/new_participant.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/views.py" afterPath="$PROJECT_DIR$/accounts/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/templates/base.html" afterPath="$PROJECT_DIR$/homepage/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/templates/profile.html" afterPath="$PROJECT_DIR$/profiles/templates/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/urls.py" afterPath="$PROJECT_DIR$/profiles/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/views.py" afterPath="$PROJECT_DIR$/profiles/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spartakiada/admin.py" afterPath="$PROJECT_DIR$/spartakiada/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spartakiada/forms.py" afterPath="$PROJECT_DIR$/spartakiada/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spartakiada/models.py" afterPath="$PROJECT_DIR$/spartakiada/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spartakiada/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/spartakiada/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spartakiada/templates/add.html" afterPath="$PROJECT_DIR$/spartakiada/templates/add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spartakiada/urls.py" afterPath="$PROJECT_DIR$/spartakiada/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spartakiada/views.py" afterPath="$PROJECT_DIR$/spartakiada/views.py" />
+    </list>
     <ignored path="project_1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -18,6 +34,14 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
@@ -27,48 +51,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profiles/views.py">
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spartakiada/templates/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="162">
+              <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
               <folding>
-                <element signature="e#0#87#0" expanded="true" />
+                <element signature="e#1591#1609#0#HTML" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spartakiada/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spartakiada/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_1/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -76,8 +66,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spartakiada/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="370">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -85,51 +75,85 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homepage/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+            <state relative-caret-position="1656">
+              <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_1/settings.py">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homepage/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="54">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spartakiada/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spartakiada/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spartakiada/views.py">
+        <entry file="file://$PROJECT_DIR$/profiles/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="480">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spartakiada/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spartakiada/tests.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homepage/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -168,12 +192,9 @@
         <option value="$PROJECT_DIR$/spartakiada/templates/register_success.html" />
         <option value="$PROJECT_DIR$/spartakiada/edit_profile.html" />
         <option value="$PROJECT_DIR$/spartakiada/templates/change_password.html" />
-        <option value="$PROJECT_DIR$/spartakiada/static/css/style.css" />
         <option value="$PROJECT_DIR$/spartakiada/templates/register.html" />
         <option value="$PROJECT_DIR$/spartakiada/templates/edit_profile.html" />
         <option value="$PROJECT_DIR$/spartakiada/templates/profile.html" />
-        <option value="$PROJECT_DIR$/spartakiada/views.py" />
-        <option value="$PROJECT_DIR$/spartakiada/urls.py" />
         <option value="$PROJECT_DIR$/project_1/urls.py" />
         <option value="$PROJECT_DIR$/spartakiada/templates/home.html" />
         <option value="$PROJECT_DIR$/accounts/templates/accounts/auth.html" />
@@ -183,20 +204,25 @@
         <option value="$PROJECT_DIR$/accounts/templates/accounts/invalid.html" />
         <option value="$PROJECT_DIR$/accounts/templates/accounts/logget.html" />
         <option value="$PROJECT_DIR$/accounts/templates/accounts/logout.html" />
-        <option value="$PROJECT_DIR$/accounts/views.py" />
         <option value="$PROJECT_DIR$/accounts/urls.py" />
         <option value="$PROJECT_DIR$/accounts/templates/accounts/login.html" />
-        <option value="$PROJECT_DIR$/spartakiada/admin.py" />
-        <option value="$PROJECT_DIR$/spartakiada/models.py" />
-        <option value="$PROJECT_DIR$/profiles/urls.py" />
-        <option value="$PROJECT_DIR$/profiles/views.py" />
-        <option value="$PROJECT_DIR$/spartakiada/templates/add.html" />
-        <option value="$PROJECT_DIR$/profiles/templates/profile.html" />
         <option value="$PROJECT_DIR$/profiles/templates/edit_profile.html" />
         <option value="$PROJECT_DIR$/accounts/templates/accounts/register.html" />
         <option value="$PROJECT_DIR$/project_1/settings.py" />
-        <option value="$PROJECT_DIR$/spartakiada/forms.py" />
+        <option value="$PROJECT_DIR$/profiles/views.py" />
+        <option value="$PROJECT_DIR$/profiles/urls.py" />
+        <option value="$PROJECT_DIR$/spartakiada/admin.py" />
+        <option value="$PROJECT_DIR$/spartakiada/templates/new_participant.html" />
+        <option value="$PROJECT_DIR$/spartakiada/urls.py" />
+        <option value="$PROJECT_DIR$/profiles/templates/profile.html" />
+        <option value="$PROJECT_DIR$/spartakiada/static/css/style.css" />
+        <option value="$PROJECT_DIR$/spartakiada/static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/spartakiada/templates/add.html" />
+        <option value="$PROJECT_DIR$/spartakiada/models.py" />
         <option value="$PROJECT_DIR$/homepage/templates/base.html" />
+        <option value="$PROJECT_DIR$/spartakiada/forms.py" />
+        <option value="$PROJECT_DIR$/accounts/views.py" />
+        <option value="$PROJECT_DIR$/spartakiada/views.py" />
       </list>
     </option>
   </component>
@@ -306,7 +332,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project_1" />
+              <option name="myItemId" value="spartakiada" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,8 +442,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -743,16 +773,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="24" width="1323" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37353173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22631167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@project_1" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34304208" sideWeight="0.5074393" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967892" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34304208" sideWeight="0.49256068" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29449838" sideWeight="0.49256068" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -760,7 +792,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.49413604" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -807,7 +838,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/spartakiada/views.py</url>
-          <line>6</line>
+          <line>7</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/profiles/urls.py</url>
@@ -826,21 +857,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spartakiada/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spartakiada/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spartakiada/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -876,20 +892,6 @@
     <entry file="file://$PROJECT_DIR$/spartakiada/templates/registration/registration.html" />
     <entry file="file://$PROJECT_DIR$/spartakiada/templates/admin_f_s/login.html" />
     <entry file="file://$PROJECT_DIR$/spartakiada/templates/home/home.html" />
-    <entry file="file://$PROJECT_DIR$/spartakiada/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spartakiada/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spartakiada/templates/change_password.html" />
     <entry file="file://$PROJECT_DIR$/spartakiada/templates/edit_profile.html" />
     <entry file="file://$PROJECT_DIR$/spartakiada/templates/profile.html" />
@@ -904,7 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,7 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="123" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -920,7 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,7 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,7 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,7 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,14 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,25 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="17" column="12" selection-start-line="15" selection-start-column="7" selection-end-line="17" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,27 +986,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spartakiada/templates/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,113 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/templates/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="60" column="61" selection-start-line="60" selection-start-column="61" selection-end-line="60" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spartakiada/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_1/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spartakiada/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spartakiada/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_1/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spartakiada/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spartakiada/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,7 +1004,178 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_1/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_1/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spartakiada/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spartakiada/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spartakiada/templates/new_participant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spartakiada/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spartakiada/static/css/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spartakiada/templates/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+          <folding>
+            <element signature="e#1591#1609#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spartakiada/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spartakiada/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="4573" column="3" selection-start-line="4573" selection-start-column="3" selection-end-line="4573" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spartakiada/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spartakiada/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}prof{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <form action="/add_new/" method="post">
+            {% csrf_token %}
+            <label for="namew" >
+                Name:<input type="text" name="namew"/>
+            </label>
+            <label for="surname">
+                surname:<input type="text" name="surname"/>
+            </label>
+            <label for="num">
+                surname:<input type="text" name="num"/>
+            </label>
+            <label for="phone">
+                surname:<input type="text" name="phone"/>
+            </label>
+            <input type="submit" value="Create" />
+        </form>
+    </div>
+{% endblock %}
+

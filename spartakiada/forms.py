@@ -5,8 +5,7 @@ from django.contrib.auth.forms import UserCreationForm, UserChangeForm
 
 class RegistrationForm(UserCreationForm):
     email = forms.EmailField(required=True)
-
-
+    faculty = forms.CharField(max_length=100)
 
     class Meta:
         model = User
