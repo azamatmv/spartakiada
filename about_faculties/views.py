@@ -14,11 +14,14 @@ def fac_list(request):
     context = {'fac': fac}
     return render(request, 'about_fac.html', context)
 
-def part_list(request):
+def part_list(request, fac_id, sport_id):
     #use = User_f.objects.all()
     #id = use.user
     #print(use,)
-    part = Participants.objects.all()
-    context = { 'participants': part  }
+
+    user = User_f.objects.get(faculty_id=fac_id, sport_id=sport_id).user
+
+    part = Participants.objects.filter(user_f_id=user)
+    context = {'participants': part,}
     return render(request, 'participants.html', context)
 
