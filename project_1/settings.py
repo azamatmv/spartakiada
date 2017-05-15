@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'accounts',
     'profiles',
     'homepage',
+    'about_faculties',
+
 
 ]
 

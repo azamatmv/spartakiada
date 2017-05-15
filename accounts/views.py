@@ -4,13 +4,9 @@ from django.contrib.auth.models import User
 from django.contrib import auth
 from django.template.context_processors import csrf
 from django.contrib.auth.forms import UserCreationForm
-from spartakiada.forms import (
-    RegistrationForm,
-    EditProfileForm,
-
-)
+from spartakiada.forms import RegistrationForm, EditProfileForm, User_fForm
 from django.contrib import messages
-
+from accounts.forms import UserRegistrationForm
 
 # Create your views here.
 def login(request):
@@ -47,19 +43,51 @@ def logout(request):
 
 
 def register_user(request):
-    if request.method == 'POST':
-        form = RegistrationForm(request.POST)
-        if form.is_valid():
-            form.save()
-            return HttpResponseRedirect('accounts/register_success')
-
-    else:
-        form = RegistrationForm()
-
-    args = {}
-    args.update(csrf(request))
-    args['form'] = RegistrationForm()
-    return render_to_response('accounts/register.html', args)
+    userform = UserRegistrationForm(request.POST or None)
+    user_fform = User_fForm(request.POST or None)
+    content = {
+        'form1': userform,
+        'form2': user_fform,
+    }
+    if userform.is_valid() and user_fform.is_valid():
+        user1 = userform.save()
+        profile = user_fform.save(commit=False)
+        profile.user1 = user1.id
+        profile.save()
+      #  userform.save()
+      #  uid = userform.id
+      #  user_fform.user = uid
+      #  user_fform.save()
+        return HttpResponseRedirect('accounts/register_success')
+    return render(request, 'accounts/register1.html', content)
+    # if request.method == 'POST':
+    #     form = RegistrationForm(request.POST)
+    #     if form.is_valid():
+    #             user = User.objects.create()
+    #             user.username = form.cleaned_data['username']
+    #             user.password1 = form.cleaned_data['password1']
+    #             user.password2 = form.cleaned_data['password2']
+    #             user.first_name = form.cleaned_data['first_name']
+    #             user.last_name = form.cleaned_data['last_name']
+    #             user.email = form.cleaned_data['email']
+    #
+    #             user.save()
+    #
+    #            # user_f = User_f.objects.create()
+    #             #user.faculty = form.cleaned_data['faculty']
+    #             user.phone = form.cleaned_data['phone']
+    #             user_f.save()
+    #
+    #
+    #     return HttpResponseRedirect('accounts/register_success')
+    #
+    # else:
+    #     form = RegistrationForm()
+    #
+    # args = {}
+    # args.update(csrf(request))
+    # args['form'] = RegistrationForm()
+    # return render_to_response('accounts/register.html', args)
 
 def del_user(request):
     try:

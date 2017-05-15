@@ -1,12 +1,13 @@
 {% extends 'base.html' %}
 {% block title %}login{% endblock %}
 {% block content %}
-<div class="container">
+
+<div class="container" >
 
 {% if form.errors %}
     <p class="error">туура эмес колдонуучу</p>
 {% endif %}
-    <form action="./auth" method="post">{% csrf_token %}
+    <form class="form-horizontal" action="./auth" method="post" >{% csrf_token %}
         <label> username:<input type="username" name="username" /><br> </label>
         <label> password:<input type="password" name="password" /><br></label>
 

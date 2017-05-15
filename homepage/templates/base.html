@@ -1,4 +1,4 @@
-{% load static %}
+{% load staticfiles  %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,8 @@
 
    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="{% static "css/bootstrap.css" %}">
-    <link rel="stylesheet" href="{% static " css/style.css" %}">
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <link rel="stylesheet" href="{% static "js/bootstrap.js" %}">
 
 
     <!-- Optional theme -->
@@ -67,14 +68,13 @@
 
 
            <li class="dropdown">
-             <a href="{% url 'profile' %}" class="dropdown-toggle" data-toggle="dropdown">{{ user }}   <b class="caret"></b></a>
+             <a href="{% url 'profile' %}" class="dropdown-toggle" data-toggle="dropdown">{{ user }} <b class="caret"></b></a>
              <ul class="dropdown-menu">
-               <li><a href="#">Action</a></li>
+               <li><a href="/profile/">profile</a></li>
+               <li><a href="/accounts/logout">logout</a></li>
              </ul>
           </li>
 
-
-                    <li><a href="{% url 'logout' %}"> log out </a></li>
                     {% else %}
                     <li>
                     <a href="{% url 'register_user' %}" >sign up</a>

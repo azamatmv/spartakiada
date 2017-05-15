@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}faculties{% endblock %}
+{% block content %}
+
+    <div class="container" >
+       {% for i in participants %}
+           <p>{{ i.name }} {{ i.surname }} {{ i.pers_num }}</p>
+       {% endfor %}
+    </div>
+{% endblock %}

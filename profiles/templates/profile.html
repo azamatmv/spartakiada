@@ -4,11 +4,11 @@
 {% block content %}
     <div class="container">
 
-    аты: <b>{{ user.first_name }}</b><br>
-    фамилиясы:<b>{{ user.last_name }}</b><br>
-    <p>колдонуучу аты:<b>{{ user }}</b></p>
-    факультети:<b>{{ user.user_f.faculty }}</b><br>
-    жооптуу спорт түрү:<b>{{ user.user_f.sport_id }}</b><br>
+    name: <b>{{ user.first_name }}</b><br>
+    surname:<b>{{ user.last_name }}</b><br>
+    <p>userbname:<b>{{ user }}</b></p>
+    <!--<p>faculty:<b>{{ user.user_f.faculty }}</b><br></p> -->
+    sport:<b>{{ user.user_f.sport_id }}</b><br>
     {{ user.email }}<br>
     {{ user.user_f.phone }}<br>
 
@@ -18,7 +18,7 @@
      <a href="{% url 'logout' %}">чыгуу</a><br>
      <a href="{% url 'edit_profile' %}">профильди өзгөртүү</a><br>
      <a href="{% url 'change_password' %}">пароль алмаштыруу</a><br>
-     <a href="{% url 'del-user' %}">профилди өчүрүп салуу(!)</a><br>
+   <!--  <a href="{% url 'del-user' %}">профилди өчүрүп салуу(!)</a><br> -->
 
 </div>
 {% endblock %}

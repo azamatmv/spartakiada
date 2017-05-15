@@ -3,7 +3,8 @@
 {% block title %}error{% endblock %}
 
 {% block content %}
+    <div class="container">
    <p>invalid! click <a href="{%  url 'login' %}">here </a> to login again </p>
     <a href="{%  url 'register_user' %}">регистрация</a>
-
+    </div>
 {% endblock %}

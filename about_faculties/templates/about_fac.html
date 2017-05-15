@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}faculties{% endblock %}
+{% block content %}
+
+    <div class="container" >
+
+       {% for i in fac %}
+         <p><a href="sports/">{{ i.id }}{{ i.faculty_name }}</a></p>
+       {% endfor %}
+
+    </div>
+{% endblock %}

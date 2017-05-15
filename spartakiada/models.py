@@ -25,9 +25,13 @@ class User_f(models.Model):
     def create_profile(sender, **kwargs):
         if kwargs['created']:
             user_profile = User_f.objects.create(user=kwargs['instance'])
-    def __unicode__(self):
+
+    def __User__(self):
         return(self.user.first_name)
     post_save.connect(create_profile, sender=User)
+
+
+
 
 
 class Participants(models.Model):
@@ -40,6 +44,8 @@ class Participants(models.Model):
     def get_user(self):
         user_f = User_f.objects.get(user=self.user_f_id)
         return u'%s'%(user_f.faculty.faculty_name)
+    def __unicode__(self):
+        return(self.name)
 
 class Active_game(models.Model):
     game_name = models.CharField(max_length=200)

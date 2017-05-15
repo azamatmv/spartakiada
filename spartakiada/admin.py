@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from spartakiada.models import Sport, Faculty, Active_game, Archive, User_f,Participants
+from spartakiada.models import Sport, Faculty, Active_game, Archive, User_f, Participants
 
 admin.site.register(Sport)
 admin.site.register(Faculty)

@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}faculties{% endblock %}
+{% block content %}
+
+    <div class="container" >
+        {% for i in sports %}
+            <p><a href="participants/">{{ i.id }}{{ i.sport_name }}</a></p>
+        {% endfor %}
+
+    </div>
+{% endblock %}

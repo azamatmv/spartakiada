@@ -19,9 +19,12 @@ from django.conf.urls.static import static
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+
+    url(r'^admin', admin.site.urls),
     url(r'^', include('spartakiada.urls')),
     url(r'^accounts/', include('accounts.urls')),
     url(r'^profile/', include('profiles.urls')),
+    url(r'^about_faculties/', include('about_faculties.urls')),
+
 
 ]

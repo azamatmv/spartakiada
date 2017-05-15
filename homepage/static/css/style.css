@@ -1,5 +1,5 @@
- @import "/homepage/static/bootstrap.css" screen;
- @import "/homepage/static/bootstrap-theme.css" handheld, print;
+ @import "/homepage/static/css/bootstrap.css" screen;
+ @import "/homepage/static/css/bootstrap-theme.css" handheld, print;
 
 .container2{
     width: 100%;
